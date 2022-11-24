@@ -113,7 +113,7 @@ public class MachineService implements IDao<Machine> {
 		return machines;
 	}
 
-	public  List<Machine> affchSalle(int salle) {
+	public  List<Machine> affchSalle(Salle salle) {
 		List<Machine> machines = new ArrayList<Machine>();
 		try {
 			
